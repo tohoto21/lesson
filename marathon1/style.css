@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600;700&display=swap');
+body{
+    font-family: 'Montserrat', sans-serif;
+    }
+
+h1{
+    font-family: Montserrat;
+    font-size: 48px;
+    margin-top: 48px;
+    margin-bottom: 9px;
+}
+
+.birth_info{
+            font-size: 14px;
+    color: blue;
+    background-color: greenyellow;
+            }
+
+.description{
+            font-size: 14px;
+            margin-top: 0px;
+            
+            }
+
+.section-title{
+                font-size: 24px;
+                margin-top: 50px;
+                }
+
+.work-Education-ul{
+                    font-size: 14px;
+                    padding-left: 15px;
+
+
+                    }
+
+
+.red-info{
+            color: #FF3232;
+            }
+
+.foto-jonsnow-birthinfo{
+                        width: 310px;
+                        height: 656px;
+                        background-color: #1A142D;
+                        color: white;
+                        box-sizing: border-box;
+                        padding: 19px;
+                        text-align: center;
+
+                        margin-right: 67px;
+
+                        }
+
+.img-foto-js{
+            width: 100%;
+            border: solid white 1px;
+            }
+.text-work-education{
+                    width: 467px;
+                    box-sizing: border-box;
+
+
+                    }
+.container-jonsnow{
+                    display: flex;
+                    margin-top: 64px;
+
+                    margin-left: 53px;
+                    }
+
+.li-info-jonsnow{
+
+                padding-left: 0px;
+}
+.img-social-network{
+                    color: red;
+                    width: 24px;
+    height: 23px;
+                    }

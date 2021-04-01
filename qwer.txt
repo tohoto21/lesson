@@ -1,0 +1,1 @@
+with open('l1','w') as f

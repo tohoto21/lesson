@@ -1,0 +1,8 @@
+﻿{
+"string":"abc",
+"number":1,
+"boolen":true,
+"none":null,
+"array":[1,2,"3z"],
+"object":{"key":["value",false]}
+}

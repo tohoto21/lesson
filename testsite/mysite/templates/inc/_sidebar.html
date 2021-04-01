@@ -1,0 +1,16 @@
+{% load news_tags %}
+
+<div class="list-group">
+    {% get_categories as categories %} <!--создал тег и вытащил из него функцию,попутно назвав ,чтобы код не менять-->
+    {% for item in categories %}
+        <a href="{% url 'category' item.pk %}" class="list-group-item list-group-item-action">{{ item.title }}</a>
+        {% endfor %}
+</div>
+{% comment %}
+ добавил другой вид тега ,он подгружает также лоуд тег и показывает.
+<br>
+
+{% show_categories %}
+{% endcomment %}
+
+
