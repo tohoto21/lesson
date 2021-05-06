@@ -1,0 +1,58 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	color:white;
+	font-size: 32px
+
+}
+.row:after { /*вот эта писанина вытаскивает футер из под*/
+  visibility: hidden;
+  display: block;
+  font-size: 0;
+  content: " ";
+  clear: both;
+  height: 0;
+}
+.row { display: inline-block; }
+/* start commented backslash hack \*/
+* html .row { height: 1%; }
+.row { display: block; }/* сидибара и контента*/
+/* close commented backslash hack */
+
+.header{
+	
+	margin-bottom: 10px;/*отступ с низу*/
+}
+.inner-header{
+	background-color: #1C14CF;
+	height:200px;
+}
+
+.content{
+	
+	width: 60%;
+	float:left;
+}
+.inner-content{
+    background-color: #000000;
+	min-height:500px;
+}
+.sidibar{
+	
+	width: 40%;
+	float:left;
+	padding-left: 10px; 
+}
+.inner-sidibar{
+    background-color: #1C14FF;
+	min-height: 500px;	
+}
+.footer{
+	
+	margin-top:10px; /*отступ уже сверху*/
+}
+.inner-footer{
+	background-color: #1C14FF;
+	height:200px;
+}

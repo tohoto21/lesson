@@ -1,0 +1,32 @@
+body{
+	background-image: url(img/bf1.jpg);
+}
+
+
+#test_anim{
+	transform: rotate(35deg) scale(0.5);/* поворот на и размер блока */
+	transition: 0.5s all;
+	
+	
+	
+	background-color:rgba(170,188,212);
+	color:#ffffff;
+	padding:123px;
+	margin:15px;/*внешние отступы рамки или поля*/
+	border:3px solid #291725;/*сама рамка*/
+	border-radius: 10px; /* закругление блока */
+	opacity:0.5; /* видимость блока*/
+	box-shadow: 3px 3px 7px #000000; /* тень вправо(-влево),вниз(-вверх),размытие,цвет */
+	height: 100px ;
+	width: 300px;
+	display: block;/* видимость блока none невид.*/
+	text-align:center; /* left,right выравнивание текста*/
+	font-size: 30px; /* размер шрифта */
+	font-weight:800; /* жирность шрифта */
+}	
+#test_anim:hover{ /* ховер реакция на мышь */
+	transform:rotate(0deg);
+	
+	background-color:#332D39; 
+
+}

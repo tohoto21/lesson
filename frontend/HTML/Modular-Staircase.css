@@ -1,0 +1,14 @@
+body{
+	background-image: url(img/1.jpg);
+	background-size: cover;
+}
+#cap{
+	background-color:#FBD21A;
+	color:#ffffff;
+	padding:10px;
+	border: 2px solid #000000;
+	
+
+    margin-left: 100px;
+	margin-right: 800px;	
+}

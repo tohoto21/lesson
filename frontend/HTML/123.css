@@ -1,0 +1,13 @@
+a{/*селектор*/
+	color:#000000;/*свойство:значение;*/
+	font-size: 20px;/*размер того что внутри*/ 
+}
+div{
+	color: rgba(134,198,232,0.5);/*4 пункт задает прозрачность*/
+	font-size: 30px;
+}
+.a1{
+	color:#000000;
+	background-color:#CEFF00;
+	border: 1px solid  #FF0800;
+}

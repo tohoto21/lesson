@@ -1,0 +1,67 @@
+a{ /*цвет ссылки */
+	color:rgba(255,0,0,0.5);/*четвертый параметро задает прозрачность 0-1 */
+	font-size:30px; /*size text */
+}
+
+div{ /*задали цвет то что внутри тега */
+	color:#19FBFF ;
+}
+
+#my_link{/*селектор по индефикатору */
+	color:green;/*изменили цвет по id */
+}
+#test_link{
+	font-size:50px;
+	color:purple;
+}
+.human{
+	color:#E1DBBE;
+}
+
+.animal{
+	color:#00FF00;
+}
+.lion{
+	font-size:50px;
+}
+.monkey{
+	font-size:60px;
+}
+.fish{
+	font-size:70px;
+}
+
+.message{
+	color:#44454D;
+	background-color:#DBDBDB;
+	border: 1px solid #292929;
+	font-size:20px;
+	
+	margin-left:10px;
+	margin-right:1000px;/*отталкивание области */
+	margin-bottom:50px;
+	padding:30px; /*отталкивание  отталкивание текста внутри области со всех сторон */
+					/*8отталкивание текста увеличивает размер области*/
+}
+.warning{
+	color:#000000;
+	background-color:#E8722D;
+	;
+}
+.fail{
+	color:#000000;
+	background-color:#FF0800;
+	
+}
+.success{
+	color:#000000;
+	background-color:#28FF2C;
+	
+}
+.info{
+	color:#000000;
+	background-color: #1443FF; 
+}
+.message:hover{
+	border:10px solid #BA55D3;/*отклик при наведении мыши */
+}

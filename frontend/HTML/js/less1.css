@@ -1,0 +1,8 @@
+.list {
+display: flex;
+list-style:none;
+}
+
+.list.item:first-child{
+	background-color: red;
+}
